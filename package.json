@@ -1,27 +1,59 @@
 {
   "name": "curlhelper",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+  "version": "0.1.4",
+  "description": "A powerful, curl-like HTTP client for JavaScript and TypeScript with fluent API and curl command parsing",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
   },
-  "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.6"
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest --coverage",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "curl",
+    "http",
+    "https",
+    "request",
+    "fetch",
+    "api",
+    "client",
+    "rest",
+    "typescript",
+    "fluent-api",
+    "chainable"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/curlhelper.git"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.6",
-    "@eslint/eslintrc": "^3"
+    "@vitest/coverage-v8": "^1.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5",
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

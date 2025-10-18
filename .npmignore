@@ -1,0 +1,36 @@
+# Source files
+src/
+tests/
+examples/
+
+# Config files
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc.json
+.env.local
+.env.development
+
+# Development files
+*.log
+*.md
+!README.md
+!LICENSE
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+.env
+
+# CI/CD
+.github/
+
+# Misc
+node_modules/
+coverage/
+.DS_Store
+API_DESIGN.md

